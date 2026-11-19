@@ -1,0 +1,62 @@
+.buy-box {
+  width: 100%;
+  max-width: 500px;
+  color: #474747;
+}
+
+.buy-box h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.buy-box-category {
+  color: #666666;
+  font-size: 14px;
+  margin-bottom: 24px;
+}
+
+.buy-box-price {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.old-price {
+  color: #999999;
+  text-decoration: line-through;
+  font-size: 18px;
+}
+
+.buy-box-price strong {
+  font-size: 28px;
+  color: #474747;
+}
+
+.buy-box-description {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #666666;
+}
+
+.buy-button {
+  width: 100%;
+  padding: 16px;
+  margin-top: 24px;
+  background: #c92071;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.buy-button:hover {
+  background: #991956;
+}
+
+.buy-button:disabled {
+  background: #cccccc;
+  cursor: not-allowed;
+}

@@ -1,0 +1,36 @@
+.product-options {
+  margin: 24px 0;
+}
+
+.product-options h3 {
+  font-size: 16px;
+  color: #474747;
+  margin-bottom: 12px;
+}
+
+.options-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.option-button {
+  min-width: 40px;
+  padding: 10px 16px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  background: #ffffff;
+  color: #474747;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.option-button:hover {
+  border-color: #c92071;
+}
+
+.option-button.selected {
+  background: #c92071;
+  color: #ffffff;
+  border-color: #c92071;
+}

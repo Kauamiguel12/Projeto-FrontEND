@@ -1,0 +1,35 @@
+.product-details {
+  margin-top: 40px;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 4px;
+  color: #474747;
+}
+
+.product-details h2 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.product-details p {
+  font-size: 15px;
+  line-height: 1.7;
+  color: #666666;
+  margin-bottom: 25px;
+}
+
+.product-details-info {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.product-details-info div {
+  display: flex;
+  gap: 8px;
+  font-size: 14px;
+}
+
+.product-details-info strong {
+  min-width: 90px;
+}

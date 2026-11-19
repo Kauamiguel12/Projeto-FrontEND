@@ -1,0 +1,27 @@
+.product-view-page {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 40px 5%;
+}
+
+.product-view-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  align-items: start;
+}
+
+.product-not-found {
+  min-height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #474747;
+}
+
+@media (max-width: 768px) {
+  .product-view-layout {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+}

@@ -1,0 +1,27 @@
+
+.section {
+  width: 100%;
+  margin: 50px 0;
+}
+
+.section-title {
+  margin-bottom: 25px;
+}
+
+.section-title h2 {
+  color: #474747;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.section-title.left {
+  text-align: left;
+}
+
+.section-title.center {
+  text-align: center;
+}
+
+.section-content {
+  width: 100%;
+}
